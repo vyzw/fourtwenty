@@ -3,7 +3,8 @@ int main(void) {
   for (int i = 0; i <= 20; i++) {
       int twenty = 0;
       for (int j = 0; j <= 4; j++) {
-          twenty += 4;
+          int four = 4;
+          twenty += four;
       }
       fourtwenty += twenty;
   }
